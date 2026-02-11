@@ -279,5 +279,52 @@ button:hover {
     to { opacity: 0; transform: translateX(100px); }
 }
 
-/* Signup form styling (optional) */
+.users-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #f3eeff;
+    border-radius: 12px;
+    overflow: hidden;
+    animation: fadeSlide 0.6s ease;
+}
+
+.users-table th, .users-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.users-table th {
+    background: linear-gradient(135deg, #b39ddb, #9575cd);
+    color: white;
+}
+
+.users-table tr:hover {
+    background: #e0d4ff;
+}
+
+.users-table td a {
+    margin-right: 10px;
+    color: #6a4fb3;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.users-table td a:hover {
+    color: #9575cd;
+    transform: scale(1.2);
+}
+
+/* Edit Form Box */
+.edit-box {
+    background: white;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 15px 30px rgba(150, 120, 200, 0.25);
+    margin-top: 20px;
+    animation: fadeSlide 0.6s ease;
+}
+
 
